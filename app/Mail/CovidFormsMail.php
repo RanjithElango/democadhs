@@ -51,6 +51,7 @@ class CovidFormsMail extends Mailable
                         'isolate_detail' => $this->isolate_detail,
                         'test_result' => $this->test_result,
                     ])
-                    ->bcc('selva@dselva.com');
+                    // ->bcc('selva@dselva.com');
+                    ->bcc('ranjithkutty1012@gmail.com');
     }
 }

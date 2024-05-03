@@ -66,6 +66,7 @@ class RxRefillMail extends Mailable
             'medication' => $this->medication,
             'supplies' => $this->supplies,
         ])
-        ->bcc('selva@dselva.com');
+        // ->bcc('selva@dselva.com');
+        ->bcc('ranjithkutty1012@gmail.com');
     }
 }

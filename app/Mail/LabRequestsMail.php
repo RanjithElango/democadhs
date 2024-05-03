@@ -52,6 +52,7 @@ class LabRequestsMail extends Mailable
             'email' => $this->email,
             'phone' => $this->phone,
         ])
-        ->bcc('selva@dselva.com');
+        // ->bcc('selva@dselva.com');
+        ->bcc('ranjithkutty1012@gmail.com');
     }
 }
